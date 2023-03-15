@@ -1,36 +1,3 @@
-//Import data artikel
-// import { artikel } from "./data.js";
-
-//Membaca perubahan URL
-// window.onpopstate = function() {
-//     //Mendapatkan alamat URL Sekarang
-//     let url = document.location.href;
-
-//     //Memperoleh index terakhir string yang memiliki karakter '#'
-//     let hashIndex = url.lastIndexOf("#/");
-
-//     //Melakukan slicing dari index karakter "#" terakhir, ditambah 1 untuk meninggalkan nilai string "#"
-//     let statusURL = url.slice(hashIndex + 1);
-
-//     //Percabangan untuk melakukan rendering konten artikel sesuai dengan nilai URL
-//     switch (statusURL) {
-//         case "/":
-//             generateDOM(0);
-//             break;
-//         case "/yoga":
-//             generateDOM(1);
-//             break;
-//         case "/workout":
-//             generateDOM(2);
-//             break;
-//         case "/food":
-//             generateDOM(3);
-//             break;
-//         default:
-//             generateDOM(0);
-//     }
-// }
-
 // Data JSON artikel apabila halaman dijalankan tanpa http atau tidak support ES6
 let artikel = [
     {
